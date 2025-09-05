@@ -5,7 +5,7 @@ import webbrowser
 import google.generativeai as genai
 
 # 🔑 Configure Gemini API
-genai.configure(api_key="AIzaSyB3lbroP-fbcOr9A1gHGUOmkW34ccW6zbI")  # Replace with your API key
+genai.configure(api_key="GEMINI_API_KEY")  # Replace with your API key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # 🎤 Recognizer & TTS
