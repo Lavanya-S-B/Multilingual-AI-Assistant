@@ -1,3 +1,6 @@
+<<<<<<< HEAD:Assistant.py
+
+=======
 import os
 import pyttsx3
 import speech_recognition as sr
@@ -155,3 +158,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+>>>>>>> d010db8 (Remove unwanted file):VoiceAssistant.py
